@@ -1,10 +1,3 @@
-% -------------------------
-% ResumeTex
-% Resume/CV template
-% Supragya Raj
-% License: MIT License
-% -------------------------
-
 \documentclass[a4paper,6pt]{article}
 \usepackage{tabularx}
 \usepackage[left=0.5cm,right=1cm,bottom=1.5cm,top=1cm,bindingoffset=0.5cm]{geometry}
@@ -36,159 +29,15 @@
 
 \begin{document}
 \begin{center}
-\Large \textbf{SUPRAGYA RAJ}
+\Large \textbf{SHREYAS PAPINWAR}
 
 
 \end{center}
 \begin{tabularx}{\textwidth}{X r}
-	https://www.linkedin.com/in/supragyaraj & Email: supragyaraj@gmail.com \\
-	http://github.com/supragya & +91 97907 22967 
+	https://www.shreyasp.me &  spapinwar@gmail.com \vspace{2px} \\
+	https://github.com/shreyaspapi & +91 98345 47140 
 \end{tabularx}
 
-
-\section*{Education}
-\vspace{-8px}
-\hrule
-\vspace{4px}
-\hspace{5px}
-\begin{tabularx}{\textwidth}{X r}
-	\textbf{Vellore Institute of Technology} & Chennai, India \\
-	\textit{\small Bachelor of Technology in Computer Science and Engineering \textcolor{mygray}{\textbf{GPA: 9.02/10.0}}} & \textit{July, 2019} 
-\end{tabularx}
-
-\hspace{5px}
-\begin{tabularx}{\textwidth}{X r}
-	\textbf{Army Public School, Shankar Vihar} & New Delhi, India \\
-	\textit{\small Senior Secondary, (PCM + CS), 12th CBSE:  \textcolor{mygray}{\textbf{95.6\% (aggregate), 98\% (CS)}}} & \textit{May 2015} \\
-	\textit{\small High School, 10th CBSE, \textcolor{mygray}{\textbf{CGPA 10.0}}} & \textit{May 2013}
-\end{tabularx}
-
-\vspace{-9px}
-\section*{Experience}
-\vspace{-8px}
-\hrule
-
-\vspace{4px}
-\hspace{5px}
-\begin{tabularx}{\textwidth}{X r}
-	\large{\textbf{Cisco Systems}} & \\
-	\textit{\small Software Engineer} & \textit{July 2019 - Present} \\
-\end{tabularx}
-
-\small
-\begin{itemize}
-	\itemsep0em
-	\item Implementing controller side support for \textcolor{mygray}{\textbf{802.11r (wireless fast transition)}}, allowing fast roaming between Cisco enterpise grade WiFi access points, lowering roam times by around \textcolor{mygray}{\textbf{10 times}}.
-	\item System level development done in \textcolor{mygray}{\textbf{C}} with \textcolor{mygray}{\textbf{test driven development}} which is deployed in large enterprises such as \textcolor{mygray}{\textbf{Google}}, \textcolor{mygray}{\textbf{Uber}}, \textcolor{mygray}{\textbf{Facebook}}, \textcolor{mygray}{\textbf{Amazon}} etc.
-    \item Developing mapping layer code to translate \textcolor{mygray}{\textbf{openconfig}} standard based wireless management to commands usable by Cisco devices: written internally in \textcolor{mygray}{\textbf{erlang}}. 
-\end{itemize}
-
-\normalsize
-\vspace{2px}
-\hspace{5px}
-\begin{tabularx}{\textwidth}{X r}
-	\textit{\small Software Intern}& \textit{Jan 2019 - June 2019} \\
-\end{tabularx}
-
-\small
-\begin{itemize}
-	\itemsep0em
-    \item Designed and implemented heirarchial (pre)download mechanism allowing enterprise grade access points to download device images in a peer to peer fashion which earlier used to be central download based architecture. 
-    \item The code reduced load on Cisco wireless controllers and sped up download times from \textcolor{mygray}{\textbf{O(n)}} time to \textcolor{mygray}{\textbf{O(logn)}}, becoming highly effective in enterprise deployments.
-\end{itemize}
-
-\normalsize
-\vspace{6px}
-\hspace{5px}
-\begin{tabularx}{\textwidth}{X r}
-	\large{\textbf{Google summer of code}} &  \\
-	\textit{\small Mentor, Apertus association}& \textit{March 2019 - Aug 2019} \\
-\end{tabularx}
-
-\small
-\begin{itemize}
-	\itemsep0em
-    \item Mentored a student in GSoC 2019 to develop a \textcolor{mygray}{\textbf{file system}} to serve raw video camera frames in RGB format through a pseudo AVI file making it readable by video players like \textcolor{mygray}{\textbf{VLC}} and editor programs like \textcolor{mygray}{\textbf{Adobe Premiere Pro}}.
-\end{itemize}
-
-\normalsize
-\vspace{2px}
-\hspace{5px}
-\begin{tabularx}{\textwidth}{X r}
-	\textit{\small Student Developer, Apertus association}& \textit{March 2018 - Aug 2018} \\
-\end{tabularx}
-\small
-\begin{itemize}
-	\itemsep0em
-	\item Developed a \textcolor{mygray}{\textbf{file format specification}} and raw video containering system to save large amount of \textcolor{mygray}{\textbf{streaming data}} coming from cinema grade camera on disk. \textcolor{mygray}{\textbf{Saved months of development time}} by reusing already existing open source code for encoding and decoding the stream.
-\end{itemize}
-\normalsize
-
-\vspace{6px}
-\hspace{5px}
-\begin{tabularx}{\textwidth}{X r}
-	\large{\textbf{Vicara Tech}} & \\
-	\textit{\small Software Developer Intern}& \textit{April 2018 - July 2018} \\
-\end{tabularx}
-
-\small
-\begin{itemize}
-	\itemsep0em
-	\item Developed a Windows service in C\# to allow custom software (eg. VLC media player) to be controlled using a gesture control device on Windows platform. The service module was lightweight and allowed very low latency inputs - \textcolor{mygray}{\textbf{less than 10ms}} to be provided to the operating system.
-\end{itemize}
-\normalsize
-
-\vspace{-9px}
-\section*{Projects}
-\vspace{-8px}
-\hrule
-\vspace{4px}
-\hspace{5px}
-\begin{itemize}
-    \item \textbf{HLang Language \& interpreter}: \small Developed a scripting language and its interpreter to provide functionalities of Bourne Shell (bash) on an opensource microkernel (HelenOS) operating system.
-\normalsize
-\vspace{2px}
-	\item \textbf{AutoTrailer}: \small Automatic movie trailer generation with a given mood from a movie file by analysing emotions using machine learning. 
-\vspace{2px}
-\normalsize
-	\item \textbf{DirectorySync}: \small Using inotify-tools(filewatcher) to sync files and directories on linux systems over a network.
-\vspace{2px}
-\normalsize
-	\item \textbf{PiNG12RAW}: \small RGB image extraction from cell matrix data of a camera sensor. \textcolor{mygray}{\textbf{over 120 forks on github}}. 
-\normalsize
-\end{itemize}
-
-\vspace{-9px}
-\section*{Publications}
-\vspace{-8px}
-\hrule
-\vspace{8px}
-\begin{itemize}
-	\item \small Raj S., Chodnekar S.P., Harish T., Sriraman H. (2019) \textcolor{mygray}{\textbf{eMDPM: Efficient Multidimensional Pattern Matching Algorithm for GPU}}. In: Tiwari S., Trivedi M., Mishra K., Misra A., Kumar K. (eds) Smart Innovations in Communication and Computational Sciences. Advances in Intelligent Systems and Computing, vol 851. Springer, Singapore. 
-\normalsize
-\vspace{2px}
-	\item \small Agyeya O., Singh P., Prasad S., Raj S., Thomas Abraham J.V. (2019) \textcolor{mygray}{\textbf{Performance Evaluation of Guest Operating System Following Obliteration of Pre-installed Features}}. In: Chaki N., Devarakonda N., Sarkar A., Debnath N. (eds) Proceedings of International Conference on Computational Intelligence and Data Engineering. Lecture Notes on Data Engineering and Communications Technologies, vol 28. Springer, Singapore.
-\normalsize
-\end{itemize}
-
-\vspace{-9px}
-\section*{Awards and achievements}
-\vspace{-8px}
-\hrule
-\vspace{8px}
-\begin{itemize}
-	\item \textbf{Winner, Smart India Hackathon 2019, Goldman Sachs}: \small Mentored the team from IGDTUW, Delhi in GS problem set - smart transportation held at NIT, Calicut.
-\normalsize
-\vspace{2px}
-	\item \textbf{Teaching Assistant, Fall 2019}: \small Taught Theory of Computation and Compiler Design to a class of over 50 students at VIT Chennai. 
-\normalsize
-\vspace{2px}
-    \item \textbf{Recommendation by MHRD, India}: \small Letter of Appreciation by Smt. Smriti Irani, former minister, Ministry of Human Resource and Development, Govt. of India for performance in senior secondary examinations.
-\normalsize
-\vspace{2px}
-	\item \textbf{INSPIRE Fellowship}: \small Recipient of INSPIRE science fellowship (2013-2015), led by DST and DRDO, India.
-\normalsize
-\end{itemize}
 
 \vspace{-9px}
 \section*{Programming Skills}
@@ -196,11 +45,172 @@
 \hrule
 \vspace{8px}
 \begin{itemize}
-	\item \textbf{Programming Languages}: \small Intermediate: C, C++ | Working Knowledge: Javascript, Python, erlang
+ \item \hspace{3px} \textbf{Programming}: \small Swift(SwiftUI, ARKit), Python, JavaScript, React Native, Bash
 \normalsize
 \vspace{2px}
-	\item \textbf{Technologies}: \small Linux, Cisco Wireless, node.js, AWS 
+	\item \hspace{3px} \textbf{Web}: \small Node.js, Angular 9, React, HTML/CSS, Flask
 \normalsize
+\vspace{2px}
+	\item \hspace{3px} \textbf{Other}: \small AWS, GCP, Git, MongoDB, 
+\normalsize
+\end{itemize}
+
+
+
+\vspace{-9px}
+\section*{Experience}
+\vspace{-8px}
+\hrule
+
+\vspace{7px}
+\hspace{5px}
+\begin{tabularx}{\textwidth}{X r}
+	\large{\textbf{Google Summer of Code}} \vspace{1px} & \\
+	\textit{\small Fedora (Redhat)}& \textit{May 2020 - Present} \\
+\end{tabularx}
+
+\small
+\begin{itemize}
+	\itemsep0em
+	\item Return feedback of successful builds or failed tests back into the merge request. \textcolor{mygray}{\textbf{GitLab}} and \textcolor{mygray}{\textbf{Github}} use slightly different workflows.
+	\item \textcolor{mygray}{\textbf{Packit}} project has native support exclusively for GitHub now. So my job is to implement support for GitLab in \textcolor{mygray}{\textbf{packit-service}} so that it can process events from \textcolor{mygray}{\textbf{GitLab API}}. 
+\end{itemize}
+\normalsize
+
+\vspace{7px}
+\hspace{5px}
+\begin{tabularx}{\textwidth}{X r}
+	\large{\textbf{Newsgator}} \vspace{1px} & \\
+	\textit{\small Software Developer (Remote)}& \textit{March 2020 - Present} \\
+\end{tabularx}
+
+\small
+\begin{itemize}
+	\itemsep0em
+	\item Developed an interactive user interface using \textcolor{mygray}{\textbf{HTML, CSS, Angular 9 and Angular Material}}.
+	\item Implemented the set of new API endpoints in \textcolor{mygray}{\textbf{NodeJS}} which helped improve the efficiency of the application by \textcolor{mygray}{\textbf{30 percent}}.
+	\item Responsible for defining, developing, and evolving software in a fast paced and agile development environment using the latest software development methods and infrastructure.
+\end{itemize}
+\normalsize
+
+\vspace{4px}
+\hspace{5px}
+\begin{tabularx}{\textwidth}{X r}
+	\large{\textbf{Flavazo}} \vspace{4px} & \\
+	\textit{\small Software Developer (Part Time Remote)} & \textit{July 2019 - February 2020} \\
+\end{tabularx}
+
+\small
+\begin{itemize}
+	\itemsep0em
+	\item Used \textcolor{mygray}{\textbf{NodeJS}} and \textcolor{mygray}{\textbf{Express}} framework to build server side logic, and applied with \textcolor{mygray}{\textbf{middlewares}} to handle http requests.
+	\item Managed and deployed node API’s. Improved efficiency of Flavazo app by 30 percent made in \textcolor{mygray}{\textbf{React Native}}. 
+    \item Applied \textcolor{mygray}{\textbf{JWT middleware}} to backend for authentication and used Passport for security purpose.
+\end{itemize}
+
+\normalsize
+\vspace{2px}
+\hspace{5px}
+\begin{tabularx}{\textwidth}{X r}
+	\textit{\small Machine Learning Intern}& \textit{April 2019 - June 2019} \\
+\end{tabularx}
+
+\small
+\begin{itemize}
+	\itemsep0em
+    \item Worked on \textcolor{mygray}{\textbf{Python (Scrapy, Selenium)}} built scraping scripts to get user reviews of different restaurant and User details.
+    \item Worked on developing food recommendation system using the user person built by details scraped.
+    \item Built and deployed the back-end in \textcolor{mygray}{\textbf{NodeJS}}.
+\end{itemize}
+
+
+\vspace{6px}
+\hspace{5px}
+\begin{tabularx}{\textwidth}{X r}
+	\large{\textbf{Georgia Institute of Technology}} \vspace{2px} & \\
+	\textit{\small Research Intern}& \textit{April 2018 - July 2018} \\
+\end{tabularx}
+
+\small
+\begin{itemize}
+	\itemsep0em
+	\item Worked on parallel programming in JAVA, the main idea of the project was to work on self driving vehicle simulation.
+	\item Responsible for building the web part of the project made using Python (Flask).
+\end{itemize}
+
+
+
+\vspace{-9px}
+\section*{Leadership and achievements}
+\vspace{-8px}
+\hrule
+
+\vspace{5px}
+\hspace{5px}
+\begin{tabularx}{\textwidth}{X r}
+	\large{\textbf{Microsoft Imagine Cup 2020}} \vspace{2px} & \\
+	\textit{\small Finalist}& \textit{February 2020 - April 2020} \\
+\end{tabularx}
+\small
+\begin{itemize}
+	\itemsep0em
+	\item One of the \textcolor{mygray}{\textbf{Top 10}} teams selected from \textcolor{mygray}{\textbf{Asia-Pacific APAC (18 countries)}}.
+	\item My work was to make the registration of face easy and working on integrating \textcolor{mygray}{\textbf{Azure’s Face API}}.
+	\item The team created a solution for bottle necked gateways in a daily commute: specifically the entry and exit points at metro stations.
+\end{itemize}
+
+\vspace{4px}
+\hspace{5px}
+\begin{tabularx}{\textwidth}{X r}
+	\large{\textbf{Smart India Hackathon (SIH)}} \vspace{1px} & \\
+	\textit{\small Hackathon}& \textit{2020} \\
+\end{tabularx}
+
+\small
+\begin{itemize}
+	\itemsep0em
+	\item Opportunity to show our project to the government and gain knowledge in the working of the industry.
+	\item Got selected for Smart India Hackathon in under the transportation project where we improve the efficiency of the transportation.
+\end{itemize}
+
+\normalsize
+
+\vspace{-9px}
+\section*{Projects}
+\vspace{-8px}
+\hrule
+\vspace{7px}
+\hspace{5px}
+\begin{itemize}
+    \item \textbf{The Corona App}: \small The app gives live updates of Covid-19 affected patients state and city wise, Data is taken from the covid19india.org and updated every 5 minutes.
+\normalsize
+\vspace{2px}
+	\item \textbf{Vehicle Tag - Licence Plate}: \small The aim of the project is to implement it in Bennett University main gate to get detailed information of vehicle entering university premises. Logs time information and checks the number plate with government data to get the name of the person.
+\vspace{2px}
+\normalsize
+	\item \textbf{Chess AI - AlphaGo}: \small The aim of the project is to implement a chess reinforcement learning model using Machine Learning AlphaGo methods.
+\vspace{2px}
+\normalsize
+	\item \textbf{FaceTag}: \small The idea is to use facial recognition to have an automated payment system for public transports (using an online wallet). Imagine FastTag-based tollways for human faces without the need for any hardware / physical cards. You can simply walk in and out; we'll scan the face and deduct the costs from your wallet.. 
+\normalsize
+\end{itemize}
+
+\section*{Education}
+\vspace{-8px}
+\hrule
+\vspace{4px}
+\hspace{5px}
+\begin{tabularx}{\textwidth}{X r}
+	\textbf{Bennett University} & Delhi NCR, India \vspace{2px} \\
+	\textit{\small Bachelor of Technology in Computer Science and Engineering } & \textit{2017 - Present} 
+\end{tabularx}
+
+\vspace{2px}
+
+\begin{itemize}
+    \item Award of best competitive programmer in 2018 and 2019 in University.
+ \item Main coursework: Data Structures, Design and analysis of Algorithms, Computer Architecture, Artificial
+Intelligence, Database Systems, Operating Systems, Software Engineering.
 \end{itemize}
 
 \end{document}
